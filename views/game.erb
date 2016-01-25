@@ -11,8 +11,8 @@
     </header>
 
     <div class="towers row well">
-      <% towers.each do |tower| %>
-        <%= erb :tower, locals: { tower: tower } %>
+      <% towers.each_with_index do |tower, idx| %>
+        <%= erb :tower, locals: { tower: tower, number: idx + 1 } %>
       <% end %>
     </div><!-- towers -->
 

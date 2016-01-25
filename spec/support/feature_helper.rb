@@ -7,7 +7,6 @@ module FeatureHelper
     find('form button[type="submit"]').click
   end
 
-
   # Submits the form
   # with the sequence of moves
   # that wins the game
@@ -27,4 +26,3 @@ module FeatureHelper
     end
   end
 end
-

@@ -19,4 +19,3 @@ describe 'Game view' do
   end
 
 end
-

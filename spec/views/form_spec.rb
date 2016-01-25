@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'Form' do
-  
+
   # Before each test
   # we will visit
   # the root URL of the game

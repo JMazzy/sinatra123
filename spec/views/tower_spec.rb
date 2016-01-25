@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'Towers' do
-  
+
   # Before each test
   # we will visit
   # the root URL of the game
@@ -10,7 +10,7 @@ describe 'Towers' do
   end
 
   describe 'each tower' do
-    
+
     it 'has a tower class' do
       expect(page).to have_css('.tower', :count => 3)
     end
@@ -34,4 +34,3 @@ describe 'Towers' do
     end
   end
 end
-

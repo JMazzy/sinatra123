@@ -18,7 +18,6 @@ class TowerOfHanoi
     to.unshift(disk)
   end
 
-
   # Returns true when the
   # game state is winning
   def win?
@@ -27,7 +26,6 @@ class TowerOfHanoi
     tower == win_state
   end
 
-
   # Returns true if the move
   # is valid
   def valid_move?(from, to)
@@ -35,7 +33,6 @@ class TowerOfHanoi
     has_disks?(@towers[from - 1]) &&
     can_move?(@towers[from - 1], @towers[to - 1])
   end
-
 
   private
   # Create the default
@@ -64,4 +61,3 @@ class TowerOfHanoi
     to.empty? || from.first < to.first
   end
 end
-

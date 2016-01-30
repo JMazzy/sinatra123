@@ -92,4 +92,3 @@ describe TowerOfHanoi do
     end
   end
 end
-
